@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["f005.backblazeb2.com"],
   },
+  basePath: "/realestate",
 };
 
 export default nextConfig;
