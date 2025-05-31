@@ -7,6 +7,7 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./MenuData";
 import ActionButtons from "./ActionButtons";
 import ActionButtonsMobile from "./ActionButtonsMobile";
+import { BASE_PATH } from "@/config";
 
 export default function Navbar() {
   // Navbar toggle
@@ -58,14 +59,14 @@ export default function Navbar() {
               } `}
             >
               <Image
-                src="/images/logo/logo-2.svg"
+                src={BASE_PATH + "/images/logo/logo-2.svg"}
                 alt="logo"
                 width={140}
                 height={30}
                 className="w-full dark:hidden"
               />
               <Image
-                src="/images/logo/logo.svg"
+                src={BASE_PATH + "/images/logo/logo-2.svg"}
                 alt="logo"
                 width={140}
                 height={30}

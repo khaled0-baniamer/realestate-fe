@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
     const params = convertObjectValuesToStrings(heroSearchSelector);
     const searchParams = new URLSearchParams(params).toString();
 
-    router.push(`listings?${searchParams}`);
+    router.push(`/listings?${searchParams}`);
   };
   return (
     <>

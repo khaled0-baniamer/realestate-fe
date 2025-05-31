@@ -7,7 +7,7 @@ import { Navbar } from "@/layout";
 export const metadata: Metadata = {
   title: "Realestate",
   description: "Realestate Website",
-  icons: "/images/favicon.png",
+  icons: BASE_PATH + "/images/favicon.png",
 };
 
 export default function RootLayout({
@@ -36,3 +36,4 @@ export default function RootLayout({
 }
 
 import { ReactQueryProvider, ReduxStoreProvider, Theme } from "@/providers";
+import { BASE_PATH } from "@/config";

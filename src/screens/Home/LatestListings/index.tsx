@@ -16,7 +16,7 @@ const LastestListings: React.FC = () => {
     <section className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28 my-5">
       <div className="container">
         <SectionTitle
-          title="Our Latest LListings"
+          title="Our Latest Listings"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

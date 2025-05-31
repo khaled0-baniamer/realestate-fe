@@ -1,3 +1,4 @@
+import { BASE_PATH } from "@/config";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -7,7 +8,7 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["f005.backblazeb2.com"],
   },
-  basePath: "/realestate",
+  basePath: BASE_PATH,
 };
 
 export default nextConfig;

@@ -1,16 +1,16 @@
-
+import { BASE_PATH } from "@/config";
 
 export const apiRouteLocal = {
-    bathrooms:"/api/bathrooms",
-    bedrooms:"/api/bedrooms",
-    cities:"/api/cities",
-    countries:"/api/countries",
-    districts:"/api/districts",
-    furnishedTypes:"/api/furnished-types",
-    propertyTypes:"/api/property-types",
-    listings:"/api/listings/",
-    listingsAmenities:"/api/listing-amenities/",
-    similarListing:"/api/similar-listing/",
-    user:"/api/profile/",
-    cookies:"/api/cookies/",
-}
+  bathrooms: `${BASE_PATH}/api/bathrooms`,
+  bedrooms: `${BASE_PATH}/api/bedrooms`,
+  cities: `${BASE_PATH}/api/cities`,
+  countries: `${BASE_PATH}/api/countries`,
+  districts: `${BASE_PATH}/api/districts`,
+  furnishedTypes: `${BASE_PATH}/api/furnished-types`,
+  propertyTypes: `${BASE_PATH}/api/property-types`,
+  listings: `${BASE_PATH}/api/listings/`,
+  listingsAmenities: `${BASE_PATH}/api/listing-amenities/`,
+  similarListing: `${BASE_PATH}/api/similar-listing/`,
+  user: `${BASE_PATH}/api/profile/`,
+  cookies: `${BASE_PATH}/api/cookies/`,
+};

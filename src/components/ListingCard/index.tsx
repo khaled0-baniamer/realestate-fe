@@ -1,4 +1,5 @@
 "use client";
+import { BASE_PATH } from "@/config";
 import { Property } from "@/types";
 import { priceFormat } from "@/utils";
 import { ArrowsOut, Bathtub, Bed, MapPin } from "@phosphor-icons/react";
@@ -28,7 +29,7 @@ const ListingCard: React.FC<Props> = ({ listing }) => {
           </span>
           <Image
             loading="lazy"
-            src={listing?.images?.[0] ?? "/images/blog/blog-01.jpg"}
+            src={listing?.images?.[0] ?? BASE_PATH + "/images/blog/blog-01.jpg"}
             alt="image"
             fill
           />
@@ -64,7 +65,7 @@ const ListingCard: React.FC<Props> = ({ listing }) => {
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <Image src={"/images/blog/author-02.png"} alt="author" fill />
+                  <Image src={BASE_PATH +"/images/blog/author-02.png"} alt="author" fill />
                 </div>
               </div>
               <div className="w-full">
