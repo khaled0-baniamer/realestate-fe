@@ -70,7 +70,7 @@ export default function Navbar() {
                 alt="logo"
                 width={140}
                 height={30}
-                className="hidden w-full dark:block"
+                className="hidden w-full dark:block bg-white p-1"
               />
             </Link>
           </div>

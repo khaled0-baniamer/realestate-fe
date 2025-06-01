@@ -71,7 +71,7 @@ const Dropdown: React.FC<DropdownProps> = ({
             <li
               key={index}
               onClick={() => handleSelect(option)}
-              className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+              className="px-4 py-2  cursor-pointer"
             >
               {option.name}
             </li>

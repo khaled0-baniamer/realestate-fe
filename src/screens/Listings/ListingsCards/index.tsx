@@ -4,7 +4,6 @@ import { useGetListingPaginated } from "@/hooks";
 import Card from "./Card";
 import { useAppSelector } from "@/redux/slices";
 
-
 const ListingsCards: React.FC = () => {
   const heroSearch = useAppSelector((state) => state.heroSearch);
   const { data, fetchNextPage, isLoading, hasNextPage, isFetchingNextPage } =
@@ -63,8 +62,10 @@ const ListingsCards: React.FC = () => {
             );
           })
         )}
-        {isFetchingNextPage && <p>Loading more...</p>}
         {/* <div className="bg-red-400 col-span-4">Sidebar content</div> */}
+      </div>
+      <div className="flex justify-center">
+        {isFetchingNextPage && <p>Loading more...</p>}
       </div>
     </div>
   );

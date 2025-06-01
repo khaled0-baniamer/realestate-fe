@@ -66,7 +66,7 @@ const AutoComplete: React.FC<Props> = ({
             <div
               key={option.id}
               className={`flex items-center p-2 cursor-pointer ${
-                selectedValues.includes(option.id) ? "bg-blue-50" : ""
+                selectedValues.includes(option.id) ? "bg-blue-50 dark:bg-blue-950" : ""
               }`}
               onClick={() => onSelect(option)}
             >
