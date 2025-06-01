@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     domains: ["f005.backblazeb2.com"],
   },
   basePath: BASE_PATH,
+  assetPrefix:`${BASE_PATH}/`
 };
 
 export default nextConfig;
